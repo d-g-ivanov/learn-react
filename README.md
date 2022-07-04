@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/d-g-ivanov/tableFilthor">
+  <a href="https://github.com/d-g-ivanov/learn-react">
     <img src="https://github.com/d-g-ivanov/learn-react/blob/main/assets/logo.png" alt="Learn React Logo" width="126">
   </a>
 
