@@ -89,7 +89,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <br>
 
 <details>
-  <summary>User list and their posts</summary>
+  <summary>User list and their posts (same as <a href="https://github.com/d-g-ivanov/react-user-list">this repo</a>)</summary>
   
   ### Demo (codesandbox)
   <a tarhet="_blank" href="https://codesandbox.io/s/silly-sound-4w63x">Code</a>   |   <a tarhet="_blank" href="https://4w63x.csb.app/">Preview</a>
