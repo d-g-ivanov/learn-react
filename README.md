@@ -59,7 +59,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
   <summary>Simple form</summary>
   
   ### Demo (codesandbox)
-  <a href="https://codesandbox.io/s/condescending-stonebraker-kzytf">Code</a>   |   <a href="https://kzytf.csb.app/">Preview</a>
+  <a tarhet="_blank" href="https://codesandbox.io/s/condescending-stonebraker-kzytf">Code</a>   |   <a tarhet="_blank" href="https://kzytf.csb.app/">Preview</a>
   
   ### Learnings
   Using useContext and useReducer
@@ -92,7 +92,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
   <summary>User list and their posts</summary>
   
   ### Demo (codesandbox)
-  <a href="https://codesandbox.io/s/silly-sound-4w63x">Code</a>   |   <a href="https://4w63x.csb.app/">Preview</a>
+  <a tarhet="_blank" href="https://codesandbox.io/s/silly-sound-4w63x">Code</a>   |   <a tarhet="_blank" href="https://4w63x.csb.app/">Preview</a>
 
   ### Learnings
   Create React collapsible component (reusable)
@@ -124,7 +124,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
   <summary>Photo Albums</summary>
   
   ### Demo (codesandbox)
-  <a href="https://codesandbox.io/s/flamboyant-hooks-jbmvpg">Code</a>   |   <a href="https://jbmvpg.csb.app/">Preview</a>
+  <a tarhet="_blank" href="https://codesandbox.io/s/flamboyant-hooks-jbmvpg">Code</a>   |   <a tarhet="_blank" href="https://jbmvpg.csb.app/">Preview</a>
 
   ### Learnings
   Practice useContext and useReducer. Make it look close to what Redux does and how ti works. (tried using redux, but cold not make it work with codesandbox)
@@ -149,7 +149,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
   <summary>User input validation and tracking</summary>
   
   ### Demo (codesandbox)
-  <a href="https://codesandbox.io/s/compassionate-robinson-rhvqts">Code</a>   |   <a href="https://rhvqts.csb.app/">Preview</a>
+  <a tarhet="_blank" href="https://codesandbox.io/s/compassionate-robinson-rhvqts">Code</a>   |   <a tarhet="_blank" href="https://rhvqts.csb.app/">Preview</a>
 
   ### Learnings
   Experimented with different folder structure
@@ -197,7 +197,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
   <summary>Github issues tracker</summary>
   
   ### Demo (codesandbox)
-  <a href="https://codesandbox.io/s/hopeful-voice-1vfb0">Code</a>   |   <a href="https://1vfb0.csb.app/">Preview</a>
+  <a tarhet="_blank" href="https://codesandbox.io/s/hopeful-voice-1vfb0">Code</a>   |   <a tarhet="_blank" href="https://1vfb0.csb.app/">Preview</a>
 
   ### Learnings
   "Infinite scroll"-type pagination 
