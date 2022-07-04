@@ -86,7 +86,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 </details>
 
-<br><br><br>
+<br><br>
 
 <details>
   <summary>User list and their posts</summary>
@@ -118,7 +118,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 </details>
 
-<br><br><br>
+<br><br>
 
 <details>
   <summary>Photo Albums</summary>
@@ -143,7 +143,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 </details>
 
-<br><br><br>
+<br><br>
 
 <details>
   <summary>User input validation and tracking</summary>
@@ -189,7 +189,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 </details>
 
-<br><br><br>
+<br><br>
 
 <details>
   <summary>Github issues tracker</summary>
