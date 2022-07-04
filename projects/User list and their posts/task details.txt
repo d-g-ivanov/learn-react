@@ -1,0 +1,16 @@
+From https://jsonplaceholder.typicode.com/ call:
+
+/users - returns 10 users with user details
+
+/posts/:id - returns the posts of a given user
+
+At page load, call the API and visualize the 10 users as follows:
+- use a vertical list in the form of sections. Sections should be collapsible.
+- each section should have any user image and visualize user details in controlled input fields.
+- fields "name", "username", "email", "address.street", "address.suite", "address.city", "phone", "website" should be editable.
+- when submitted, display all fields via "alert".
+- add a "Get user's posts" button that fetches the posts for a given user (add the posts to the already existing user's profile in the store).
+- display the posts below the user details.
+
+Design is by choice, not pre-given.
+

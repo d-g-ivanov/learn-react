@@ -1,0 +1,294 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  color: #222;
+  margin: 0;
+
+  background: #50a3a2;
+  background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+  background: -moz-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+  background: -o-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
+  background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+  background-size: cover;
+}
+
+#root {
+  min-height: 100vh;
+  width: 90%;
+  max-width: 1200px;
+  min-width: 360px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+.subcontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+p {
+  margin: 2rem 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.full-width {
+  width: 100%;
+  flex: 1 0 100%;
+  text-align: center;
+}
+
+.error {
+  color: #e15050;
+}
+
+.error::before,
+.error::after {
+  content: "!!!";
+  display: block;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+/* the list  */
+.issue-container section {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.issue-container article {
+  max-width: 100%;
+  flex: 1 0 auto;
+
+  position: relative;
+  padding: 1rem;
+
+  border: 1px solid #666;
+  border-radius: 0.3rem;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 17px 3px #306867;
+  box-shadow: 0px 0px 17px 3px #306867;
+
+  display: flex;
+  gap: 1rem;
+
+  /* transform: scale(0); */
+  animation: pop 0.6s cubic-bezier(0, 0.2, 0.8, 1);
+}
+
+article .index {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  color: #444;
+  font-size: 0.8rem;
+  user-select: none;
+}
+
+.avatar {
+  width: 90px;
+  height: 90px;
+  border: 5px solid #333;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.body {
+  flex: 1;
+}
+
+article img,
+article svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  fill: #e15050;
+}
+
+article h5 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+article a {
+  line-height: 1.5rem;
+  color: #222;
+  text-decoration: none;
+}
+
+article .other-assignees {
+  margin-left: 0.5rem;
+  display: inline-flex;
+  gap: 0.5rem;
+}
+
+.other-assignees img,
+.other-assignees svg {
+  border: 1px solid #333;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+article a:hover {
+  text-decoration: underline;
+  color: #e15050;
+}
+
+article button {
+  border: 0;
+  background: transparent;
+  font-size: 1.2rem;
+  cursor: pointer;
+
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+article button svg {
+  width: 20px;
+  height: 20px;
+  margin-left: 0.3rem;
+  position: relative;
+  top: 5px;
+  fill: inherit;
+}
+
+article button:not([disabled]):hover {
+  color: #e15050;
+  fill: #e15050;
+}
+
+/* the form  */
+form {
+  width: 100%;
+  max-width: 400px;
+  min-width: 250px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+form > * {
+  border: 3px solid;
+  border-radius: 5px;
+}
+
+form input {
+  padding: 1em;
+  font-size: 1em;
+  font-weight: bold;
+  color: #333;
+  background-color: #ffffff88;
+}
+
+form button {
+  padding: 0.7em;
+  font-weight: bold;
+  cursor: pointer;
+  background: #0069ed;
+  color: #ffffff;
+  border-color: inherit;
+}
+
+form button:hover {
+  background: #0053ba;
+}
+
+/* spinner */
+.spinner {
+  display: inline-block;
+}
+.spinner > div {
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  border-radius: 50%;
+  background: #fff;
+  animation: spin 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+@keyframes spin {
+  0%,
+  100% {
+    animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5);
+  }
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(1800deg);
+    animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);
+  }
+  100% {
+    transform: rotateY(3600deg);
+  }
+}
+
+/* pop animaiton for items  */
+@keyframes pop {
+  0%,
+  100% {
+    animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5);
+  }
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.1);
+    animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* tooltips  */
+.tooltip-container {
+  position: relative;
+}
+
+.tooltip-box {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.9);
+  color: #eee;
+  padding: 5px;
+  border-radius: 5px;
+  top: calc(100% + 5px);
+  display: none;
+  font-size: 0.9rem;
+  white-space: pre-line;
+  z-index: 1;
+}
+
+.tooltip-box.visible {
+  display: block;
+}
+
+.tooltip-arrow {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent rgba(0, 0, 0, 0.7) transparent;
+}
+
+.el-holder {
+  display: inline-block;
+}

@@ -1,0 +1,30 @@
+Allow users to add work experience sections and fill them out.
+
+Text fields should be editable and support keyboard shortcuts for bold (ctrl/cmd+b), italics (ctrl/cmd+i) and underline (ctrl/cmd+u).
+
+Imagine there is an endpoint that validates user input and makes suggestion to improve their content.
+
+Mock the service as follows, required only for description field:
+- if user enters the phrase "I've done many projects", service should return following result, where message is a suggestion and range is whihc part of the user input the message affects:
+
+``[
+  {
+    "range": [10,23],
+    "message": "This is vague. Instead of “Managed projects for many clients”, say “Managed projects for 10 clients including BlueBank.”"
+  },
+  {
+    "range": [0,23],
+    "message": "Include a valuable metric if possible. For example: \"Increased revenue by 20% within one month.\"."
+  }
+]``
+
+- highlight in red the ranges where improvement can be made.
+- when hovering over the highlight, display a tooltip for the given message.
+
+Track the following:
+1. If user viewed the suggested correction
+2. If user changed their texts after viewing the suggestion
+3. If the suggestion was ignored
+
+
+Designs were pre-given but I am not at liberty to share. Done 1 to 1 with requirements.

@@ -1,0 +1,63 @@
+.block {
+  font-family: 'Rubik';
+  font-style: normal;
+  color: #2d3639;
+  padding: 15px 15px;
+  width: 450px;
+}
+
+.block [contenteditable] {
+  outline: 0;
+  cursor: text;
+}
+
+.block [placeholder]:empty::before {
+  content: attr(placeholder);
+  opacity: 0.8;
+}
+
+.block [placeholder]:focus::before {
+  opacity: 1;
+}
+
+.block .heading {
+  font-size: 22px;
+  line-height: 26px;
+  margin-bottom: 4px;
+}
+
+.block .subheading {
+  color: #3f9cdc;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.block .subheading::placeholder {
+  color: #3f9cdc;
+  font-weight: 500;
+  opacity: 0.6;
+}
+
+.block .sub-blocks {
+  color: #384347;
+  display: flex;
+  gap: 10px;
+  font-family: 'Inter';
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.block .long-form {
+  color: #384347;
+  font-family: 'Inter';
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: 4px;
+}
+
+.block mark {
+  background-color: #eb5757a9;
+}

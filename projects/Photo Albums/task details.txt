@@ -1,0 +1,5 @@
+Use endpoint https://jsonplaceholder.typicode.com/photos to fetch set of images.
+Order the images in albums and visualize the albums as clickable cards.
+When an album is selected, display all the images in the given album.
+Add a Favourites album by default. Users can mark photos to add to that album.
+Photos in Favourites should persist after page reload.

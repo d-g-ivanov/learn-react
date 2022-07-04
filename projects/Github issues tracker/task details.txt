@@ -1,0 +1,12 @@
+Build a web application that gives information about the open issues in a given repository. 
+When a user enters the GitHub Username and the repository name into the field on the Home/Main page of this application, the following is what should happen:
+a.	The page will show the full list of the open issues for the given repository. 
+b.	Each item in the list will:
+i)	Show the title of the issue
+ii)	Show the assignee of the issue
+iii)	Show the assignee Profile Avatar
+iv)	When clicking on an issue title, display/navigate to the comments of it
+c.	When you reload the browser the inputs should hold the Username and repo name and have to display the repo as well.
+i)	You can use any method you want to do the task
+
+Design is by choice, not pre-given.

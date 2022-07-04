@@ -1,0 +1,26 @@
+.main-navigation {
+  background-color: #fff;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main-navigation nav {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 20px 32px;
+}
+
+.main-navigation ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.main-navigation li {
+  color: #232528;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
