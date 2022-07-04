@@ -22,7 +22,7 @@
 
 
 <!-- TABLE OF CONTENTS -->
-<details>
+<details open>
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#about-the-repo">About The Repo</a></li>
