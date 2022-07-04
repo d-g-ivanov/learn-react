@@ -188,7 +188,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 
 <details>
-  <summary>{{PROJECT_NAME}}</summary>
+  <summary>Github issues tracker</summary>
   
   ### Demo (codesandbox)
   <a href="https://codesandbox.io/s/hopeful-voice-1vfb0">Code</a>   |   <a href="https://1vfb0.csb.app/">Preview</a>
@@ -215,19 +215,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
   Design is by choice, not pre-given.
 
 </details>
-
-
-<template>
-  <details>
-    <summary>{{PROJECT_NAME}}</summary>
-    
-    ### Demo (codesandbox)
-    <a href="#">Code</a>   |   <a href="#">Preview</a>
-
-    ### Learnings
-
-    ### Details
-
-
-  </details>
-</template>
