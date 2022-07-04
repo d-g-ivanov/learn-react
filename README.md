@@ -5,7 +5,7 @@
     <img src="https://github.com/d-g-ivanov/learn-react/blob/main/assets/logo.png" alt="Learn React Logo" width="126">
   </a>
 
-  <h3 align="center">Table Filthor</h3>
+  <h3 align="center">Learn React Projects</h3>
 
   <p align="center">
     Some react projects I did along the way.
