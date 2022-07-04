@@ -165,7 +165,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
   Mock the service as follows, required only for description field:
   - if user enters the phrase "I've done many projects", service should return following result, where message is a suggestion and range is whihc part of the user input the message affects:
 
-  ```[
+  ```
+  [
     {
       "range": [10,23],
       "message": "This is vague. Instead of “Managed projects for many clients”, say “Managed projects for 10 clients including BlueBank.”"
@@ -174,7 +175,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
       "range": [0,23],
       "message": "Include a valuable metric if possible. For example: \"Increased revenue by 20% within one month.\"."
     }
-  ]```
+  ]
+  ```
 
   - highlight in red the ranges where improvement can be made.
   - when hovering over the highlight, display a tooltip for the given message.
