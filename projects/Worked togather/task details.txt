@@ -28,15 +28,3 @@ Sample data available in app
 Sandbox
 Code: https://codesandbox.io/s/busy-clarke-vh380i
 Preview: https://vh380i.csb.app/
-
-
-Old
-https://codesandbox.io/s/billowing-firefly-nyv7dh
-https://codesandbox.io/s/serene-meitner-u6s7wt
-https://codesandbox.io/s/festive-nash-ukkzst
-https://codesandbox.io/s/still-wind-hgodlo
-https://codesandbox.io/s/competent-meitner-ctbxju
-
-
-CHEATS
-https://stackoverflow.com/questions/68611786/find-pair-of-employees-that-have-worked-together-the-longest-on-common-project
