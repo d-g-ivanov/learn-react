@@ -67,9 +67,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
   ### Details
   Make a submission form with the following fields:		
-    - First Name
-    - Last Name
-    - Email
+    - First Name  
+    - Last Name  
+    - Email  
     
   The fields should have colored borders that will change to a random color (the same for all fields, at the same time) on losing focus.
 
