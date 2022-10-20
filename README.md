@@ -221,3 +221,49 @@ Distributed under the MIT License. See `LICENSE` for more information.
   Design is by choice, not pre-given.
 
 </details>
+
+<br>
+
+<details>
+  <summary>Worked togather</summary>
+  
+  ### Demo (codesandbox)
+  <a href="https://codesandbox.io/s/busy-clarke-vh380i">Code</a>   |   <a href="https://vh380i.csb.app/">Preview</a>
+
+  ### Learnings
+  Writing re-usable components, both re-writing old ones to be more configurable, but also created some new ones, such as file drag and drop and a DataGrid implementation.
+
+  Parsing simple text files from scratch, no library.
+
+  "First" steps in Big O notation and algorithm optimizations. 
+
+  ### Details
+  Create an application that identifies the pairs of employees who have worked together on common projects.
+
+
+  User Flow:
+  The user picks a csv or txt file (comma or tab delimited) from their file system.
+  The app parses the file, transforms it and displays in a data grid the results as follows:
+
+  Columns 
+    - Employee ID #1, Employee ID #2, Project ID, Days worked
+  Sections 
+    - summary line with Employee IDs and total duration, follows by row for each individual common project
+    - sections a collapsible so that only summary row is visible
+
+
+  Data:
+  Input in the form of TXT or CSV files, comma or tab delimitted.
+
+  Fields
+    - EmpID, ProjectID, DateFrom, DateTo
+    - where
+      - EmpID is unique identifier for each employee
+      - ProjectID is unique identifier for each project
+      - DataFrom is the start date of the employee on the project, format dd/mm/yyyy
+      - DateTo is the last working day of the employee on the project, format dd/mm/yyyy
+        - DateTo can be NULL and that is considered as TODAY
+
+  Sample data available in app
+
+</details>
