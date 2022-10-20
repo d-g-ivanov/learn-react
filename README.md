@@ -1,3 +1,10 @@
+<style>
+  details[open] {
+    backgorund: lightgreen;
+  }
+</style>
+
+
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
