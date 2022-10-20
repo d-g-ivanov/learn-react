@@ -75,10 +75,10 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
   There should be a submit button.
     
-  Submission:	
-    - The info should be sent to an endpoint (mocked). If the name has less than 5 characters the submission should fail.
-    - The submit button should turn green if the response is 200. 
-    - The button should turn red if the submission fails.
+  Submission:  
+    - The info should be sent to an endpoint (mocked). If the name has less than 5 characters the submission should fail.  
+    - The submit button should turn green if the response is 200.  
+    - The button should turn red if the submission fails.  
 
   Note: ignore the backend folder.
 
@@ -95,9 +95,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
   <a tarhet="_blank" href="https://codesandbox.io/s/silly-sound-4w63x">Code</a>   |   <a tarhet="_blank" href="https://4w63x.csb.app/">Preview</a>
 
   ### Learnings
-  Create React collapsible component (reusable)
-  Practise React useContext and useReducer
-  Working with external APIs
+  Create React collapsible component (reusable)  
+  Practise React useContext and useReducer  
+  Working with external APIs  
 
   ### Details
   From https://jsonplaceholder.typicode.com/ call:
