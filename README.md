@@ -66,7 +66,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
   Creating custom hooks
 
   ### Details
-  Make a submission form with the following fields:		
+  Make a submission form with the following fields:  
     - First Name  
     - Last Name  
     - Email  
